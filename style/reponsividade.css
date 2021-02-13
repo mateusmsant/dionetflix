@@ -1,0 +1,22 @@
+@media screen and (max-width: 568px) {
+  header .nav-container { 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .botao {
+    margin-top: 5px;
+    width: 300px;
+  }
+
+  .main-movie .container .descricao {
+    width: 100%;
+  }
+  
+}
+
+@media screen and (min-width: 568px) {
+  .main-movie .container .descricao {
+    width: 50%;
+  }
+}
